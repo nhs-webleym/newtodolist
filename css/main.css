@@ -1,0 +1,36 @@
+.listItem{
+	width: 90% !important;
+	display: inline-block !important;
+	border: none !important;
+	box-shadow: none !important;
+
+}
+
+#toDoList{
+	margin-top: 2em;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+#toDoList li {
+	padding: 10px;
+}
+#toDoList li:nth-child(even) {background: #f1f1f1}
+#toDoList li:nth-child(odd) {background: #dcdcdc}
+
+
+i.fa-times{
+	font-size: 2em;
+}
+a.removeListItem{
+	float: right;
+}
+
+span.handle{
+	font-size: 1.5em;
+	margin-left: 1em;
+}
+
+span.handle:hover{
+	cursor: move;
+}
